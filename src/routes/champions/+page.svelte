@@ -1,11 +1,19 @@
 <main>
-    <h1>Champions</h1>
+	<h1>Champions</h1>
 </main>
 
 <style>
-    main {
-        max-width: fit-content;
-        margin-left: auto;
-        margin-right: auto;
-    }
+	main {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		margin-left: 250px;
+	}
+
+	h1 {
+		text-align: center;
+		margin: auto;
+	}
+
 </style>

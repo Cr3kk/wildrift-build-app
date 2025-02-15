@@ -1,0 +1,3661 @@
+{
+    "support-items": {
+        "ancient-coin": {
+            "name": "Ancient Coin",
+            "price": 500,
+            "stats": {
+                "health": 80,
+                "attack damage": 0,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetratio": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 5,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                "Gain 1 encirling energy orb every 30 seconds (max 3 orbs). While an ally is nearby, each nearby minion defeated consumes 1 energy orb, granting you 65 gold and restoring your Health by 20-80. You do not earn gold generated from minion kills, but you earn gold equal to 50% of the bounty. The gold generated from your minion kills will be given to the ally nearest to you. Gold earned from monster kills is reduced by 50%. Deal 1 more damage to Sight Wards revealed by Sweeping Lens, Control Wards, and Scryer's Bloom. Upon gaining Offering, the ally nearest to you gains Offering stacks.",
+                "After earning 750 gold, this item upgrades to Talisman of Ascension and binds you and the ally with the most Offering stacks as Perfect Partners."
+            ]
+        },
+        "ancient-coin-2": {
+            "name": "Talisman of Ascension",
+            "price": 500,
+            "stats": {
+                "health": 125,
+                "attack damage": 0,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetratio": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 15,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                "Every 60 seconds, gain 75 gold, 25 Health, and 2 Attack Damage or 4 Ability Power (Adaptive); up to 250 Health and 20 Attack Damage or 40 Ability Power (Adaptive). Deal 2 more damage to Sight Wards revealed by Sweeping Lens, Control Ward, and Scryer's Bloom. When out of combat, gain 10% Movement Speed when you move toward your Perfect Partner. If you're more than 2500 units apart, this bonus increases to 30%."
+            ]
+        },
+        "spec-sickle": {
+            "name": "Spectral Sickle",
+            "price": 500,
+            "stats": {
+                "health": 0,
+                "attack damage": 0,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetratio": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                "Gain 10 Attack Damage or 20 Ability Power (Adaptive).",
+                "Gain 1 encirling energy orb every 30 seconds (max 3 orbs). While an ally is nearby, each nearby minion defeated consumes 1 energy orb, granting you 65 gold and restoring your Health by 20-80. You do not earn gold generated from minion kills, but you earn gold equal to 50% of the bounty. The gold generated from your minion kills will be given to the ally nearest to you. Gold earned from monster kills is reduced by 50%. Deal 1 more damage to Sight Wards revealed by Sweeping Lens, Control Wards, and Scryer's Bloom. Upon gaining Tribute, the ally nearest to you gains Tribute stacks.",
+                "Earn 750 gold with this item to transform it into Black Mist Scythe and bind you and the ally with the most Tribute stacks as Prefect Partners."
+            ]
+        },
+        "spec-sickle-2": {
+            "name": "Black Mist Scythe",
+            "price": 500,
+            "stats": {
+                "health": 0,
+                "attack damage": 0,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetratio": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 10,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                "Gain 14 Attack Damage or 28 Ability Power (Adaptive).",
+                "Every 60 seconds, gain 75 gold, 25 Health, and 2 Attack Damage or 4 Ability Power (Adaptive); up to 250 Health and 20 Attack Damage or 40 Ability Power (Adaptive). Deal 2 more damage to Sight Wards revealed by Sweeping Lens, Control Ward, and Scryer's Bloom. When out of combat, gain 10% Movement Speed when you move toward your Perfect Partner. If you're more than 2500 units apart, this bonus increases to 30%."
+            ]
+        },
+        "relic-shield": {
+            "name": "Relic Shield",
+            "price": 500,
+            "stats": {
+                "health": 125,
+                "attack damage": 0,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetratio": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                "Gain 1 encirling energy orb every 30 seconds (max 3 orbs). Attacking enemy minions consumes 1 energy orb and executes minions below 65% Health; granting allies full bounty, granting you 65 bonus gold, and restoring your Health by 15-65. You do not earn gold generated from minion kills, but you earn gold equal to 50% of the bounty. The gold generated from your minion kills will be given to the ally nearest to you. Gold earned from monster kills is reduced by 50%. Deal 1 more damage to Sight Wards revealed by Sweeping Lens, Control Ward, and Scryer's Bloom. Sharing Bounty with an ally builds Spoils of War stacks for them.",
+                "After earning 750 gold, this item upgrades into Bulwark of the Mountain and binds you and the ally with the most Spoils of War stacks as Perfect Partners."
+            ]
+        },
+        "relic-shield-2": {
+            "name": "Bulwark of the Mountain",
+            "price": 500,
+            "stats": {
+                "health": 175,
+                "attack damage": 0,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetratio": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 10,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                "Every 60 seconds, gain 75 gold, 25 Health, and 2 Attack Damage or 4 Ability Power (Adaptive). Deal 2 more damage to Sight Wards revealed by Sweeping Lens, Control Ward, and Scryer's Bloom. When out of combat, gain 10% Movement Speed when you move toward your Perfect Partner. If you're more than 2500 units apart, this bonus increases to 30%."
+            ]
+        }
+    },
+    "basic-items": {
+        "amp-tome": {
+            "name": "Amplyfing Tome",
+            "price": 500,
+            "stats": {
+                "health": 0,
+                "attack damage": 0,
+                "ability power": 25,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetratio": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+
+            ]
+        },
+        "brawl-gloves": {
+            "name": "Brawler's gloves",
+            "price": 500,
+            "stats": {
+                "health": 0,
+                "attack damage": 0,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetratio": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 10,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+
+            ]
+        },
+        "cloth": {
+            "name": "Cloth Armor",
+            "price": 500,
+            "stats": {
+                "health": 0,
+                "attack damage": 0,
+                "ability power": 0,
+                "armor": 20,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+
+            ]
+        },
+        "dagger": {
+            "name": "Dagger",
+            "price": 500,
+            "stats": {
+                "health": 0,
+                "attack damage": 0,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 15,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+
+            ]
+        },
+        "long-sword": {
+            "name": "Long Sword",
+            "price": 500,
+            "stats": {
+                "health": 0,
+                "attack damage": 12,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+
+            ]
+        },
+        "null-mantle": {
+            "name": "Null-Magic Mantle",
+            "price": 500,
+            "stats": {
+                "health": 0,
+                "attack damage": 0,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 20,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+
+            ]
+        },
+        "rev-ring": {
+            "name": "Ring of Revelation",
+            "price": 400,
+            "stats": {
+                "health": 0,
+                "attack damage": 0,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 10,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+
+            ]
+        },
+        "ruby-crystal": {
+            "name": "Ruby Crystal",
+            "price": 500,
+            "stats": {
+                "health": 150,
+                "attack damage": 0,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+
+            ]
+        },
+        "mana-crystal": {
+            "name": "Sapphire Crystal",
+            "price": 500,
+            "stats": {
+                "health": 0,
+                "attack damage": 0,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 5,
+                "mana": 100,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                "Increases max Mana by 5 very time Mana is spent. Caps at 250 bonus Mana. Triggers up to 3 times every 12 seconds. You may only carry one Tear of the Goddess item at a time."
+            ]
+        },
+        "shim-spark": {
+            "name": "Shimering Spark",
+            "price": 500,
+            "stats": {
+                "health": 50,
+                "attack damage": 0,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                "Deals 5-10 magic damage per second to nearby enemies."
+            ]
+        }
+    },
+    "mid-tier-items": {
+        "aether-wisp": {
+            "name": "Aether Wisp",
+            "price": 950,
+            "stats": {
+                "health": 0,
+                "attack damage": 0,
+                "ability power": 35,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                "+5% Movement Speed"
+            ]
+        },
+        "bf-sword": {
+            "name": "B.F. Sword",
+            "price": 1500,
+            "stats": {
+                "health": 0,
+                "attack damage": 40,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                
+            ]
+        },
+        "cinder": {
+            "name": "Bami's Cinder",
+            "price": 1300,
+            "stats": {
+                "health": 250,
+                "attack damage": 0,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                "Deals 10-20 magic damage to nearby enemies. Deals 115% damage to minions and monsters."
+            ]
+        },
+        "blast-wand": {
+            "name": "Blasting Wand",
+            "price": 900,
+            "stats": {
+                "health": 0,
+                "attack damage": 0,
+                "ability power": 40,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                
+            ]
+        },
+        "antiheal-vest": {
+            "name": "Bramble Vest",
+            "price": 1000,
+            "stats": {
+                "health": 0,
+                "attack damage": 0,
+                "ability power": 0,
+                "armor": 30,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                "When struck by an enemy champion's attack, deal (4 + 6% bonus armor) magic damage to the attacker and inflict 40% Grievous Wounds for 3 seconds."
+            ]
+        },
+        "catalyst": {
+            "name": "Catalyst of Aeons",
+            "price": 1100,
+            "stats": {
+                "health": 200,
+                "attack damage": 0,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 300,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                "Restore Mana equal to 15% of the damage taken from champions. Regen Health equal to 20% of Mana spent. Capped at 15 Health per cast."
+            ]
+        },
+        "warhammer": {
+            "name": "Caulfield Warhammer",
+            "price": 1200,
+            "stats": {
+                "health": 0,
+                "attack damage": 25,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 10,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                
+            ]
+        },
+        "chain-vest": {
+            "name": "Chain Vest",
+            "price": 900,
+            "stats": {
+                "health": 0,
+                "attack damage": 0,
+                "ability power": 0,
+                "armor": 40,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                
+            ]
+        },
+        "crit-cloak": {
+            "name": "Cloak of Agility",
+            "price": 1000,
+            "stats": {
+                "health": 0,
+                "attack damage": 0,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 20,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                
+            ]
+        },
+        "antiheal-sword": {
+            "name": "Executioner's Calling",
+            "price": 800,
+            "stats": {
+                "health": 0,
+                "attack damage": 15,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                "Dealing physical damage to enemy champions inflicts 40% Grievous Wounds for 3 seconds."
+            ]
+        },
+        "codex": {
+            "name": "Fiendish Codex",
+            "price": 1000,
+            "stats": {
+                "health": 0,
+                "attack damage": 0,
+                "ability power": 35,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 10,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                
+            ]
+        },
+        "giant-belt": {
+            "name": "Giant's Belt",
+            "price": 1000,
+            "stats": {
+                "health": 300,
+                "attack damage": 0,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                
+            ]
+        },
+        "ice-shroud": {
+            "name": "Galcial Shroud",
+            "price": 1000,
+            "stats": {
+                "health": 0,
+                "attack damage": 0,
+                "ability power": 0,
+                "armor": 20,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 10,
+                "mana": 150,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                
+            ]
+        },
+        "guise": {
+            "name": "Haunting Guise",
+            "price": 900,
+            "stats": {
+                "health": 100,
+                "attack damage": 0,
+                "ability power": 30,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                
+            ]
+        },
+        "hexdrinker": {
+            "name": "Hexdrinker",
+            "price": 1100,
+            "stats": {
+                "health": 0,
+                "attack damage": 20,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 20,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                
+            ]
+        },
+        "hextech-alt": {
+            "name": "Hextech Alternator",
+            "price": 1400,
+            "stats": {
+                "health": 150,
+                "attack damage": 0,
+                "ability power": 25,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                "Damaging abilities and empowered attacks against champions deal 25-60 bonus magic damage. (20 second cooldown)"
+            ]
+        },
+        "j-fist": {
+            "name": "Jaurim's Fist",
+            "price": 1100,
+            "stats": {
+                "health": 175,
+                "attack damage": 15,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                
+            ]
+        },
+        "kindlegem": {
+            "name": "Kindlegem",
+            "price": 1000,
+            "stats": {
+                "health": 175,
+                "attack damage": 0,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 10,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                
+            ]
+        },
+        "shock-shard": {
+            "name": "Kircheis Shard",
+            "price": 900,
+            "stats": {
+                "health": 0,
+                "attack damage": 0,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 20,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                "Moving and attacking will generate an Energized Attack.",
+                "Energized Attacks gain 50 bonus magic damage."
+            ]
+        },
+        "last-whisper": {
+            "name": "Last Whisper",
+            "price": 1300,
+            "stats": {
+                "health": 0,
+                "attack damage": 15,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                "+15% armor penetration"
+            ]
+        },
+        "lost-chapter": {
+            "name": "Lost Chapter",
+            "price": 900,
+            "stats": {
+                "health": 0,
+                "attack damage": 0,
+                "ability power": 30,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 200,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                
+            ]
+        },
+        "nash-talon": {
+            "name": "Nashor's Talon",
+            "price": 800,
+            "stats": {
+                "health": 0,
+                "attack damage": 0,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                "Gain 20 attack damage or 40 ability power (Adaptive)."
+            ]
+        },
+        "large-rod": {
+            "name": "Needlessy Large Rod",
+            "price": 1500,
+            "stats": {
+                "health": 0,
+                "attack damage": 0,
+                "ability power": 60,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                
+            ]
+        },
+        "mr-cloak": {
+            "name": "Negatron Cloak",
+            "price": 900,
+            "stats": {
+                "health": 0,
+                "attack damage": 0,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 40,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                
+            ]
+        },
+        "quiver": {
+            "name": "Noonquiver",
+            "price": 1350,
+            "stats": {
+                "health": 0,
+                "attack damage": 25,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 15,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                
+            ]
+        },
+        "antiheal-orb": {
+            "name": "Oblivion Orb",
+            "price": 900,
+            "stats": {
+                "health": 0,
+                "attack damage": 0,
+                "ability power": 30,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                "Dealing magic damage to enemy champions inflicts 40% Grievous Wounds for 3 seconds."
+            ]
+        },
+        "phage": {
+            "name": "Phage",
+            "price": 1000,
+            "stats": {
+                "health": 150,
+                "attack damage": 15,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                "Attacks grant 20 Move Speed and kills grant 60 Move Speed for 2 seconds. Bonuses do not stack. Ranged champions gain halved values."
+            ]
+        },
+        "pendant": {
+            "name": "Prophet's Pendant",
+            "price": 1000,
+            "stats": {
+                "health": 0,
+                "attack damage": 0,
+                "ability power": 30,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                "+12 Magic Penetration."
+            ]
+        },
+        "as-bow": {
+            "name": "Recurve Bow",
+            "price": 1400,
+            "stats": {
+                "health": 0,
+                "attack damage": 0,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 30,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                "Attacks deal 15 bonus physical damage on-hit against targets."
+            ]
+        },
+        "armguard": {
+            "name": "Seeker's Armguard",
+            "price": 1200,
+            "stats": {
+                "health": 0,
+                "attack damage": 0,
+                "ability power": 25,
+                "armor": 30,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                
+            ]
+        },
+        "dirk": {
+            "name": "Serrated Dirk",
+            "price": 1000,
+            "stats": {
+                "health": 0,
+                "attack damage": 20,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                "+8 Armor Penetration."
+            ]
+        },
+        "sheen": {
+            "name": "Sheen",
+            "price": 800,
+            "stats": {
+                "health": 0,
+                "attack damage": 0,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 10,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                "Using an ability causes the next attack used within 10 seconds to deal bonus phyiscal damage equal to 100% base Attack Damage. (1.5s Cooldown) Damage is reduced vs. structures."
+            ]
+        },
+        "spec-cowl": {
+            "name": "Spectre's Cowl",
+            "price": 1100,
+            "stats": {
+                "health": 175,
+                "attack damage": 0,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 20,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                "Grants 150% base health regen for 10 seconds after taking damage from an enemy champion."
+            ]
+        },
+        "stinger": {
+            "name": "Stinger",
+            "price": 1200,
+            "stats": {
+                "health": 0,
+                "attack damage": 0,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 30,
+                "crit chance": 0,
+                "ability haste": 10,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                
+            ]
+        },
+        "surge-scales": {
+            "name": "Surging Scales",
+            "price": 1300,
+            "stats": {
+                "health": 0,
+                "attack damage": 0,
+                "ability power": 0,
+                "armor": 40,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                "Gain 20% Slow Resist while in combat with an enemy champion."
+            ]
+        },
+        "mana-tear": {
+            "name": "Tear of the Goddess",
+            "price": 900,
+            "stats": {
+                "health": 0,
+                "attack damage": 0,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 300,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                "10% of mana spent is refunded.",
+                "Increases max Mana by 7 every time Mana is spent. Caps at 700 bonus Mana. Triggers up to 3 times every 12 seconds. You may only carry one Tear of the Goddess item at a time."
+            ]
+        },
+        "vamp-scepter": {
+            "name": "Vampiric Scepter",
+            "price": 1200,
+            "stats": {
+                "health": 0,
+                "attack damage": 20,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 10,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                
+            ]
+        },
+        "mail": {
+            "name": "Warden's Mail",
+            "price": 1050,
+            "stats": {
+                "health": 0,
+                "attack damage": 0,
+                "ability power": 0,
+                "armor": 35,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                "Reduce the Attack Speed of enemies by 15% for 1.5 seconds when struck by an attack."
+            ]
+        },
+        "speed-plate": {
+            "name": "Winged Moonplate",
+            "price": 900,
+            "stats": {
+                "health": 150,
+                "attack damage": 0,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                "+5% Move Speed"
+            ]
+        },
+        "zeal": {
+            "name": "Zeal",
+            "price": 1400,
+            "stats": {
+                "health": 0,
+                "attack damage": 0,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetration": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 15,
+                "crit chance": 15,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                "+5% Move Speed"
+            ]
+        },
+        "mejais": {
+            "name": "Mejai's Soulstealer",
+            "price": 1800,
+            "stats": {
+                "health": 70,
+                "attack damage": 0,
+                "ability power": 25,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetration": 7,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 0
+            },
+            "passives": [
+                "Gain up to 30 stacks of Glory after a champion takedown. Melee champions gain 3 stacks for each kill and 2 stacks for each assist; ranged champions gain 4 stacks for each kill and 2 stacks for each assist.",
+                "For each stack of Glory you gain 5 ability power, up to 150. You also gain 10% bonus move speed while you have at least 10 stacks."
+            ]
+        }
+    },
+    "upgraded-items": {
+            "ga": {
+                "name": "Guardian Angel",
+                "price": 3400,
+                "stats": {
+                    "health": 0,
+                    "attack damage": 40,
+                    "ability power": 0,
+                    "armor": 40,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 0,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "Upon taking lethal damage, restores 50% base health 30% maximum mana after 4 seconds of stasis. (210s Cooldown)"
+                ]
+            },
+            "bt": {
+                "name": "Bloodthirster",
+                "price": 3300,
+                "stats": {
+                    "health": 0,
+                    "attack damage": 50,
+                    "ability power": 0,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 25,
+                    "ability haste": 0,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "+12% Physical Vamp.",
+                    "Gain 11-25 Attack Damage and 10% Attack Speed when your Health is above 50%"
+                ]
+            },
+            "bork": {
+                "name": "Blade of the Ruined King",
+                "price": 3200,
+                "stats": {
+                    "health": 0,
+                    "attack damage": 25,
+                    "ability power": 0,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 35,
+                    "crit chance": 0,
+                    "ability haste": 0,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "+12% physical vamp.",
+                    "Attacks deal bonus physical damage equal to 6% of the enemy's current health on-hit. (Melee attacks deal 9%). Minimum damage: 15. Max agamge vs monsters: 60.",
+                    "Htting a champion with 3 attacks or abilities deals 30-100 magic damage and steals 25% of their Move Speed for 2 seconds. (60s cooldown)"
+                ]
+            },
+            "runaans": {
+                "name": "Runaan's Hurricane",
+                "price": 3000,
+                "stats": {
+                    "health": 0,
+                    "attack damage": 0,
+                    "ability power": 0,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 35,
+                    "crit chance": 0,
+                    "ability haste": 0,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "Attacks strike 2 additional nearby enemies, each dealing 55% damage. These strikes can Critically Strike and trigger on-hit effects",
+                    "Gain 20 bonus attack damage or 40 ability power (Adaptive).",
+                    "Attacks deal 15 bonus physical damage on-hit against targets."
+                ]
+            },
+            "ghostblade": {
+                "name": "Youmuu's Ghostblade",
+                "price": 3000,
+                "stats": {
+                    "health": 0,
+                    "attack damage": 55,
+                    "ability power": 0,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 15,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "+15 armor penetration",
+                    "Moving builds Momentum, granting up to 40 Move Speed at 100 stacks. Attacking removes all Momentum. Stacks decay when movement is impaired.",
+                    "Attacking with max Momentum grants 25% Attack Speed for 4 seconds."
+                ]
+            },
+            "duskblade": {
+                "name": "Duskblade of Draktharr",
+                "price": 3000,
+                "stats": {
+                    "health": 0,
+                    "attack damage": 55,
+                    "ability power": 0,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 10,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "+18 Armor Penetration.",
+                    "The first attack against a champion deals 60-160 bonus physical damage and slows them by 99% for 0.35s. (10s cooldown) Champion takedowns refresh cooldown"
+                ]
+            },
+            "steraks": {
+                "name": "Sterak's Gage",
+                "price": 3200,
+                "stats": {
+                    "health": 400,
+                    "attack damage": 0,
+                    "ability power": 0,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 0,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "+50% base Attack Damage as bonus Attack Damage.",
+                    "Damage that puts you under 35% Health grants a shield equal to 75% bonus Health that decays over 5 seconds. (90s Cooldown)",
+                    "Triggering Lifeline increases size and grants 30% Tencaity for 8 seconds."
+                ]
+            },
+            "infinity-edge": {
+                "name": "Infinity Edge",
+                "price": 3400,
+                "stats": {
+                    "health": 0,
+                    "attack damage": 60,
+                    "ability power": 0,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 25,
+                    "ability haste": 0,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "Critical Stikes deal 205% damage instead of 175%."
+                ]
+            },
+            "antiheal-ad": {
+                "name": "Mortal Reminder",
+                "price": 3300,
+                "stats": {
+                    "health": 0,
+                    "attack damage": 30,
+                    "ability power": 0,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 25,
+                    "ability haste": 0,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "+33% Armor Penetration.",
+                    "Dealing phyisical damage to enemy champions applies 50% Grievous Wounds for 3 seconds."
+                ]
+            },
+            "manamune": {
+                "name": "Manamune",
+                "price": 2700,
+                "stats": {
+                    "health": 0,
+                    "attack damage": 25,
+                    "ability power": 0,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 20,
+                    "mana": 300,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "Grants Attack Damage equal to 1.5% of max Mana and refunds 15% of all Mana spent.",
+                    "Increases max Mana by 10 every attack or when Mana is spent. Caps at 700 bonus Mana, transforming Manamune into Muramana. Triggers up to 3 times every 12 seconds. You may only carry one Tear of the Goddess item at a time"
+                ]
+            },
+            "muramana": {
+                "name": "Muramana",
+                "price": 2700,
+                "stats": {
+                    "health": 0,
+                    "attack damage": 25,
+                    "ability power": 0,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 20,
+                    "mana": 1000,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "Grants Attack Damage equal to 2% of max Mana and refunds 15% of all Mana spent.",
+                    "When an attack hits an enemy champion, drains 2.5% of current Mana and deals bonus phyical damage equal to the amount consumed. When dealing ability damage to enemy champions, drains 4% of current Mana and deals physical damage equal to the amount consumed + 6% Attack Damage. This effect only triggers when remaining Mana is above 20%. A single attack or ability will only trigger this effect once on the same champion."
+                ]
+            },
+            "tri-force": {
+                "name": "Trinity Force",
+                "price": 3333,
+                "stats": {
+                    "health": 250,
+                    "attack damage": 30,
+                    "ability power": 0,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 30,
+                    "crit chance": 0,
+                    "ability haste": 25,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "+5% Move Speed",
+                    "Using an ability causes the next attack used within 10 seconds to deal bonus physical damage equal to 200% base Attack Damage. (1.5s Cooldown) Damage is reduced vs. structures.",
+                    "Attacks grant 20 Movement Speed an kills grant 60 Movement Speed for 2 seconds. Bonuses do not stack. Ranged champions gain halved values."
+                ]
+            },
+            "maw": {
+                "name": "Maw of Malmortius",
+                "price": 3000,
+                "stats": {
+                    "health": 0,
+                    "attack damage": 55,
+                    "ability power": 0,
+                    "armor": 0,
+                    "magic resist": 45,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 10,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "20% of the damage that your attack deals, or 15% of the physical that your abilities deal is converted into a magic shield that absorbs 60-400 magic damage (scaling with level)."
+                ]
+            },
+            "shiv": {
+                "name": "Magnetic Blaster",
+                "price": 2900,
+                "stats": {
+                    "health": 0,
+                    "attack damage": 0,
+                    "ability power": 0,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 35,
+                    "crit chance": 25,
+                    "ability haste": 0,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "+5% Movement Speed.",
+                    "Moving and attacking will generate an Energized Attack.",
+                    "Energized Attacks generate 25% faster, gain 125 range (50 range for melee attacks), and deal 50-120 bonus magic damage. Damage bounces to 5 nearby enemies and can Critcally Strike"
+                ]
+            },
+            "d-dance": {
+                "name": "Death's Dance",
+                "price": 3000,
+                "stats": {
+                    "health": 0,
+                    "attack damage": 35,
+                    "ability power": 0,
+                    "armor": 40,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 15,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "Champion takedowns cleanse Cauterize's remaing damage pool and restores 10% of your maximum health over 2 seconds.",
+                    "32% of physical damage recieved (12% if the equipped champion is ranged) is dealt to you over 3 seconds as true damage instead."
+                ]
+            },
+            "phant-dance": {
+                "name": "Phantom Dancer",
+                "price": 3000,
+                "stats": {
+                    "health": 0,
+                    "attack damage": 25,
+                    "ability power": 0,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 30,
+                    "crit chance": 25,
+                    "ability haste": 0,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "+5% Movement Speed.",
+                    "Gain 7% bonus Movement Speed when you attack for 3 seconds. After attacking 4 times, gain 25% Attack Speed for the same duration."
+                ]
+            },
+            "wits-end": {
+                "name": "Wit's End",
+                "price": 2700,
+                "stats": {
+                    "health": 0,
+                    "attack damage": 0,
+                    "ability power": 0,
+                    "armor": 0,
+                    "magic resist": 45,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 45,
+                    "crit chance": 0,
+                    "ability haste": 0,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "Basic attacks deal 15-65 bonus magic damage. While below 50% Health, dealing damage to an enemy champion heals you for (Melee 100%/Ranged 33%) of this effect's post-mitigation damage."
+                ]
+            },
+            "reaver": {
+                "name": "Essence Reaver",
+                "price": 3050,
+                "stats": {
+                    "health": 0,
+                    "attack damage": 40,
+                    "ability power": 0,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 25,
+                    "ability haste": 20,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "After attacking a champion, enhances your next damaging ability or empowered attack up to 30% based on Crit Rate, with a 4s cooldown. Cooldown is also reduced by 1s after hitting a champion with an attack.",
+                    "Attacks restore 3% missing Mana on-hit"
+                ]
+            },
+            "seryldas": {
+                "name": "Serylda's Grudge",
+                "price": 3100,
+                "stats": {
+                    "health": 0,
+                    "attack damage": 40,
+                    "ability power": 0,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 15,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "+33% Armor Penetration.",
+                    "Damaging active abilities and empowered slow enemies by 30% for 1 second."
+                ]
+            },
+            "chargeblade": {
+                "name": "Solari Chargeblade",
+                "price": 3000,
+                "stats": {
+                    "health": 0,
+                    "attack damage": 0,
+                    "ability power": 0,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 40,
+                    "crit chance": 25,
+                    "ability haste": 20,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "Using an ability gathers Radiance (max 3 charges) for up to 10 seconds. Attacks that hit expend a charge to deal 50-92 bonus magic damage on-hit; this bonus damage can Critcally Strike. Each unique ability can only generate a charge every 2 seconds."
+                ]
+            },
+            "quickblades": {
+                "name": "Navori Quickblades",
+                "price": 3100,
+                "stats": {
+                    "health": 0,
+                    "attack damage": 45,
+                    "ability power": 0,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 25,
+                    "ability haste": 15,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "Critcal Attacks reduce your non-ultimate ability cooldowns by 20% of their remaining cooldown."
+                ]
+            },
+            "edge": {
+                "name": "Edge of Night",
+                "price": 3150,
+                "stats": {
+                    "health": 250,
+                    "attack damage": 50,
+                    "ability power": 0,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 0,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "+8 Armor Penetration.",
+                    "Grants a spell shield that blocks the next hostile ability. (35 second cooldown)"
+                ]
+            },
+            "div-sunderer": {
+                "name": "Divine Sunderer",
+                "price": 3400,
+                "stats": {
+                    "health": 425,
+                    "attack damage": 25,
+                    "ability power": 0,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 25,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "After using an ability, your next attack within 10 seconds will deal 10% of target's maximum Health as bonus physical damage (7% if the attack is ranged). If the target is a champion, heal for 6% of the target's maximum Health (2.5% if the attack is ranged). (1.5s Cooldown) Damage is reduced vs. structures."
+                ]
+            },
+            "serpents-fang": {
+                "name": "Serpent's Fang",
+                "price": 2800,
+                "stats": {
+                    "health": 0,
+                    "attack damage": 50,
+                    "ability power": 0,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 10,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "+15 Armor Penetration.",
+                    "Dealing damage to an enemy champion reduces any shields they gain for 3 seconds. Melee champions apply (10% of bonus Attack Damage + 40)% shield reduction, capped at 60%; while ranged champions apply (10% of bonus Attack Damage + 25)% shield reduction, capped at 45%. When you damage an enemy who is unaffected by Shield Reaver, all shields on them are reduced by the same values."
+                ]
+            },
+            "shieldbow": {
+                "name": "Immortal Shieldbow",
+                "price": 3000,
+                "stats": {
+                    "health": 0,
+                    "attack damage": 40,
+                    "ability power": 0,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 5,
+                    "attack speed": 15,
+                    "crit chance": 25,
+                    "ability haste": 0,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "Damage that puts you under 35% Health preemptively grants a shield thatr absorbs 250-550 (scales with level) for 5s. (90s Cooldown)",
+                    "Triggering Lifeline grants 8% Physical Vamp for 8 seconds."
+                ]
+            },
+            "collector": {
+                "name": "The Collector",
+                "price": 2900,
+                "stats": {
+                    "health": 0,
+                    "attack damage": 40,
+                    "ability power": 0,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 25,
+                    "ability haste": 0,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "+10 Armor Penetration.",
+                    "Dealing damage that would leave an enemy champion below 5% of their maximum health executes them. Champion kills grant an additional25 gold."
+                ]
+            },
+            "antiheal-sword": {
+                "name": "Chempunk Chainsword",
+                "price": 2800,
+                "stats": {
+                    "health": 250,
+                    "attack damage": 45,
+                    "ability power": 0,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 15,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "Dealing physical damage to enemy champions inflicts 50% Grievous Wounds for 3 seconds."
+                ]
+            },
+            "shojin": {
+                "name": "Spear of Shojin",
+                "price": 3200,
+                "stats": {
+                    "health": 300,
+                    "attack damage": 50,
+                    "ability power": 0,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 25,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "+5% Movement Speed.",
+                    "Increases Ability Haste of basic abilites by 25% for 10 seconds after casting an Ultimate, and grants 25% bonus Movement Speed that decays over 3 seconds. Scoring a takedown within 10 seconds extends the ability's duration by 4 seconds. (20s cooldown)"
+                ]
+            },
+            "terminus": {
+                "name": "Terminus",
+                "price": 3400,
+                "stats": {
+                    "health": 0,
+                    "attack damage": 35,
+                    "ability power": 0,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 30,
+                    "crit chance": 0,
+                    "ability haste": 0,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "Attacks deal 35 bonus magic damage on-hit.",
+                    "Alternate between Light and Dark on-hits when attacking. Light attacks grant 5-8 Armor and Magic Resist (scaling with level) for 5 seconds on hit. Dark attacks grant 11% Armor Pen and 11% Magic Pen for 5 seconds on hit. Each on-hit effect stacks up to 3 times. While you have this items, bonus Armor Pen and Magic Pen granted by it is capped at 40%."
+                ]
+            },
+            "eclipse": {
+                "name": "Eclipse",
+                "price": 2900,
+                "stats": {
+                    "health": 0,
+                    "attack damage": 60,
+                    "ability power": 0,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 20,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "Htting an enemy champion with 2 separate attacks or abilites within 1.8s deals bonus physical damage equl to 6% of the target's max Health (3% for ranged champions), and grants you a shield that absorbs damage equal to 140 + 35% bonus Attack Damage (70 + 18% bonus Attack damage for ranged champions) for 2s (6s cooldown)"
+                ]
+            },
+            "sundered": {
+                "name": "Sundered Sky",
+                "price": 2900,
+                "stats": {
+                    "health": 300,
+                    "attack damage": 40,
+                    "ability power": 0,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 15,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "The first attack against a champion Critcally Strikes (6s cooldown per target), dealing 160% damage and restoring Health equal to 125% of base Attack Damage + 5% of missing Health to you."
+                ]
+            },
+            "stormrazor": {
+                "name": "Stormrazor",
+                "price": 3000,
+                "stats": {
+                    "health": 0,
+                    "attack damage": 40,
+                    "ability power": 0,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 20,
+                    "crit chance": 25,
+                    "ability haste": 0,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "Moving and attacking will generate an Energized Attack.",
+                    "An Energized attack deals 65-135 bonus magic damage, slows the targer by 50% for 0.75 seconds, and grants you 45 Movement Speed for 0.75 seconds."
+                ]
+            },
+            "cleaver": {
+                "name": "Black Cleaver",
+                "price": 3000,
+                "stats": {
+                    "health": 400,
+                    "attack damage": 40,
+                    "ability power": 0,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 20,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "Dealing physical damage to a champion reduces their Armor by 6% for 6 seconds, stacking 4 times for 24% reduction.",
+                    "Gain 20 Movement Speed when you deal physical damage, and gain 40 Movement Speed when towards enemy champions with 4 Sunder stacks. Ranged champions gain halved values."
+                ]
+            },
+            "ludens": {
+                "name": "Luden's Echo",
+                "price": 3000,
+                "stats": {
+                    "health": 0,
+                    "attack damage": 0,
+                    "ability power": 85,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 7,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 20,
+                    "mana": 300,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "Moving and casting abilites builds Discord. At 100 Discrod your damaging or empowered abilites deals 110 bonus magic damage +10% Ability Power to your next target and up to 3 nearby enemies."
+                ]
+            },
+            "antiheal-book": {
+                "name": "Morellonomicon",
+                "price": 2600,
+                "stats": {
+                    "health": 150,
+                    "attack damage": 0,
+                    "ability power": 75,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 7,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 20,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "Dealing magic damage to enemy champions inflicts 50% Grievous Wounds for 3 seconds."
+                ]
+            },
+            "rabadons": {
+                "name": "Rabadon's Deathcap",
+                "price": 3400,
+                "stats": {
+                    "health": 0,
+                    "attack damage": 0,
+                    "ability power": 100,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 7,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 0,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "Increases Ability Power by 20-45% (based on level)."
+                ]
+            },
+            "rylais": {
+                "name": "Rylai's Crystal Scepter",
+                "price": 2700,
+                "stats": {
+                    "health": 350,
+                    "attack damage": 0,
+                    "ability power": 70,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 0,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "Damaging active abilities and empowered attacks slow champions by 30% for 1 second."
+                ]
+            },
+            "liandrys": {
+                "name": "Liandry's Torment",
+                "price": 3000,
+                "stats": {
+                    "health": 250,
+                    "attack damage": 0,
+                    "ability power": 75,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 7,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 0,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "Damaging abilities and empowered attacks deal (0.4% + 0.005% Ability Power) of enemy's max Health as bonus magic damage each second, over 3 seconds."
+                ]
+            },
+            "roa": {
+                "name": "Rod of Ages",
+                "price": 2800,
+                "stats": {
+                    "health": 250,
+                    "attack damage": 0,
+                    "ability power": 60,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 7,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 0,
+                    "mana": 300,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "Restore Mana equal to 15% of the damage taken from champions. Regen Health equal to 20% of Mana spent. Capped at 25 Health per cast.",
+                    "Each stack provides 25 Health, 10 Mana, and 6 Ability Power, stacking at a rate of 1 every 40 seconds. Max of 10 stacks, providing 250 Health, 100 Mana, and 60 Ability Power."
+                ]
+            },
+            "lich-bane": {
+                "name": "Lich Bane",
+                "price": 2950,
+                "stats": {
+                    "health": 0,
+                    "attack damage": 0,
+                    "ability power": 80,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 7,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 10,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "+5% Move Speed.",
+                    "Using an ability causes the next attack used within 10 seconds to deal bonus magic damage equal to 75% base Attack Damage + 50% Ability Power. (1.5s Cooldown) Damage is reduced vs. structures."
+                ]
+            },
+            "angel-staff": {
+                "name": "Archangel's Staff",
+                "price": 2950,
+                "stats": {
+                    "health": 0,
+                    "attack damage": 0,
+                    "ability power": 35,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 7,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 20,
+                    "mana": 500,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "Grants Ability Power equal to 1% of max Mana and refunds 25% of all Mana spent.",
+                    "Increases max Mana by 15 every attack or when Mana is spent. Caps at 700 bonus Mana, transforming Archangel's Staff into Seraph's Embrace. Triggers up to 3 times every 12 seconds. You may only carry one Tear of the Goddess item at a time"
+                ]
+            },
+            "seraphs": {
+                "name": "Seraph's Embrace",
+                "price": 2950,
+                "stats": {
+                    "health": 0,
+                    "attack damage": 0,
+                    "ability power": 35,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 7,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 20,
+                    "mana": 1200,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "Grants Ability Power equal to 3% of max Mana and refunds 25% of all Mana spent.",
+                    "Damage that puts you under 35% Health consumes 15% of your current Mana to grant a shield equal to that amount +100 for 2 seconds. (90s Cooldown)"
+                ]
+            },
+            "nash-tooth": {
+                "name": "Nashor's Tooth",
+                "price": 3000,
+                "stats": {
+                    "health": 0,
+                    "attack damage": 0,
+                    "ability power": 25,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 45,
+                    "crit chance": 0,
+                    "ability haste": 20,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "Obtain 30 Attack Damage or 60 Ability Power (Adaptive).",
+                    "When basic attack hits enemy champions, it will cause (15 + 25% bonus Attack Damage + 25% Ability Power) bonus magic damage"
+                ]
+            },
+            "inf-orb": {
+                "name": "Infinity Orb",
+                "price": 2900,
+                "stats": {
+                    "health": 0,
+                    "attack damage": 0,
+                    "ability power": 85,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 7,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 0,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "+5% Move Speed.",
+                    "+15 Magic Penetration.",
+                    "Abilities and empowered attacks Critically Strike for 20% bonus damage against enemies under 35% Health."
+                ]
+            },
+            "reflector": {
+                "name": "Crystalline Reflector",
+                "price": 3000,
+                "stats": {
+                    "health": 200,
+                    "attack damage": 0,
+                    "ability power": 70,
+                    "armor": 40,
+                    "magic resist": 0,
+                    "magic penetration": 7,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 0,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "Each ability cast grants a mirror shard that lasts 3 seconds. The shard blocks 8-25 (based on level) incoming physical damage from enemy champions and deals magic damage equal to 10 + 3% Ability Power + 1% bonus Health to them."
+                ]
+            },
+            "ap-crown": {
+                "name": "Crown of the Shattered Queen",
+                "price": 3000,
+                "stats": {
+                    "health": 0,
+                    "attack damage": 0,
+                    "ability power": 60,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 7,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 20,
+                    "mana": 200,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "Grants a spell shield that blocks the next hostile ability. After the shield breaks, incoming damage is reduced by 40% for 1s (40s cooldown)",
+                    "Ability Power increases by 20 while Safeguarded. Dealing magic damage to enemy champion using an active ability reduces Safeguard's cooldown by 4s."
+                ]
+            },
+            "drive": {
+                "name": "Cosmic Drive",
+                "price": 2800,
+                "stats": {
+                    "health": 0,
+                    "attack damage": 0,
+                    "ability power": 75,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 7,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 30,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "+5% Movement Speed.",
+                    "Active abilities and empowered attacks grant 30 + 70% Ability Haste as Movement Speed after dealing damage to an enemy champion. This Movement Speed decays over 2 seconds. Each source has an individual 1s cooldown for triggering Spellweaving. Only Haste from items contributes to Spellweaving's movement speed."
+                ]
+            },
+            "riftmaker": {
+                "name": "Riftmaker",
+                "price": 3200,
+                "stats": {
+                    "health": 150,
+                    "attack damage": 0,
+                    "ability power": 80,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 7,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 15,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "+11% Omnivamp.",
+                    "When in combat with champions, gain 1 stack of Corruption every 1 second. Each stack increases the damage you deal by 2.5%, up to 3 stacks. At maximum stacks, the addional damage provided by Corruption becomes true damage."
+                ]
+            },
+            "trident": {
+                "name": "Oceanid's Trident",
+                "price": 2600,
+                "stats": {
+                    "health": 200,
+                    "attack damage": 0,
+                    "ability power": 80,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 7,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 10,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "Dealing ability damage to an enemy champion reduces any shields they gain for 3 seconds. Area of effect abilites apply (5% of Ability Power + 25)% shield reduction, capped at 45%; while single target abilites apply (5% of Ability Power + 40)% shield reduction, capped at 60%. When you damage an enemy who is unaffected by Lethal Weapon, all shields on them are reduced by the same values."
+                ]
+            },
+            "horizon": {
+                "name": "Horizon Focus",
+                "price": 2900,
+                "stats": {
+                    "health": 0,
+                    "attack damage": 0,
+                    "ability power": 80,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 7,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 20,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "Damaging an enemy champion with an ability from 600 units away reveals then for 6s and increases damage dealt to them by 9%.",
+                    "When Hypershot is triggered, reveals all champions within 1,200 units of the target for 2s. (15s cooldown)"
+                ]
+            },
+            "projectorr": {
+                "name": "Psychic Projector",
+                "price": 3100,
+                "stats": {
+                    "health": 300,
+                    "attack damage": 0,
+                    "ability power": 60,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 7,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 15,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "Gain Ability Power equal to 3% of bonus Health.",
+                    "When taking champion damage, gain a non-stacking shield that absorbs damage equal to 30 + 10% Ability Power + 5% bonus Health for 3 seconds (for ranged champions, the shield absorbs equal to 60% of this value). Triggers every 3 seconds."
+                ]
+            },
+            "soulstealer": {
+                "name": "Awakened Soulstealer",
+                "price": 3000,
+                "stats": {
+                    "health": 150,
+                    "attack damage": 0,
+                    "ability power": 65,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 7,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 20,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "+15 Magic Penetration.",
+                    "Every time you take down an enemy champion within 3 seconds of damaging them, your ability cooldowns are reduced by 25%. You steal 10% of their base Movement Speed for 10 seconds and 50% of their Ability Haste until they respawn. Ability Haste stolen this way stacks."
+                ]
+            },
+            "redemption": {
+                "name": "Redemption",
+                "price": 2600,
+                "stats": {
+                    "health": 350,
+                    "attack damage": 0,
+                    "ability power": 0,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 20,
+                    "mana": 300,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 5
+                },
+                "passives": [
+                    "Restore Mana equal to 15% of the damage taken from champions. When consuming Mana, restore Health equal to 20% of Mana spent. Capped at 15 Health per cast.",
+                    "Every 8 seconds, restore Health (50 + 6% bonus Health) to all allied champions within 350 units. This effect does not trigger if there are no allied champions nearby."
+                ]
+            },
+            "aegis": {
+                "name": "Sunfire Aegis",
+                "price": 2900,
+                "stats": {
+                    "health": 500,
+                    "attack damage": 0,
+                    "ability power": 0,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 15,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "While in combat, deal magic damage equal to 16-25 plus 0.8% of bonus Health to nearby enemies per second. Damaging champions or epic monsters with Immolate increases the damage they take by 11% for 5 seconds, stacking up to 4 times.",
+                    "At max Immolate stacks, attacks burn enemies around you for 50% of Immolate's damage over 3 seconds. Immolate deals 130% damage to monsters and 175-250% damage (scaling with level) to minions."
+                ]
+            },
+            "visage": {
+                "name": "Spirit Visage",
+                "price": 2800,
+                "stats": {
+                    "health": 350,
+                    "attack damage": 0,
+                    "ability power": 0,
+                    "armor": 0,
+                    "magic resist": 50,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 20,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 100,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "Increases all healing and shielding effects on you by 30%."
+                ]
+            },
+            "randuins": {
+                "name": "Randuin's Omen",
+                "price": 2800,
+                "stats": {
+                    "health": 400,
+                    "attack damage": 0,
+                    "ability power": 0,
+                    "armor": 75,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 0,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "When you are Critically Struck or take physical damage, gain 1 stack of Countercurrent. Each stack of Countercurrent grants 5% Critical Strike damage reduction. Stacks up to 4 timnes. Upon reaching full stacks, grants 20% bonus Movement Speed and slow resist equal to 20% plus 0.5% of bonus Health."
+                ]
+            },
+            "antiheal-mail": {
+                "name": "Thornmail",
+                "price": 2700,
+                "stats": {
+                    "health": 200,
+                    "attack damage": 0,
+                    "ability power": 0,
+                    "armor": 75,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 0,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "When struck by an enemy champion's attack, deal 20 + 6% bonus armor + 2% bonus Health magic damage to the attacker and inflict 50% Grievous Wounds for 3 seconds."
+                ]
+            },
+            "warmogs": {
+                "name": "Warmog's Armor",
+                "price": 2850,
+                "stats": {
+                    "health": 700,
+                    "attack damage": 0,
+                    "ability power": 0,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 10,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 200,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "If you have at least 950 bonus Health, restore 4.5% maximum Health per second if you haven't taken damage within the last 6 seconds."
+                ]
+            },
+            "plate": {
+                "name": "Dead Man's Plate",
+                "price": 2800,
+                "stats": {
+                    "health": 250,
+                    "attack damage": 0,
+                    "ability power": 0,
+                    "armor": 50,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 0,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "+5% Move Speed.",
+                    "Moving builds Momentum, granting up to 40 Move Speed at 100 stacks. Attacking removes all Momentum. Stacks decay when movement is impaired.",
+                    "Attacks deal up to 100 bonus magic damage based on Momentum removed. Melee attacks with max Momentum slow by 50% for 1 second."
+                ]
+            },
+            "gauntlet": {
+                "name": "Iceborn Gauntlet",
+                "price": 3100,
+                "stats": {
+                    "health": 250,
+                    "attack damage": 0,
+                    "ability power": 0,
+                    "armor": 50,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 30,
+                    "mana": 250,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "Using an ability causes the next attack within 10 seconds to deal bonus physical damage equal to (100% basr Attack Damage + 25% bonus Armor) in an area and creates an icy field for 2 seconds that slows by 30%. Armor increases the size of the icy field. (1.5s Cooldown) Damage is reduced vs. structures."
+                ]
+            },
+            "vow": {
+                "name": "Protector's Vow",
+                "price": 2700,
+                "stats": {
+                    "health": 400,
+                    "attack damage": 0,
+                    "ability power": 0,
+                    "armor": 40,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 10,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 5
+                },
+                "passives": [
+                    "Raise your gaurd when next to an allied champion. If you or the ally take damage, both of you recieve a (125 + 30% bonus Health) shield for 1.5 seconds. (20s Cooldown)"
+                ]
+            },
+            "approach": {
+                "name": "Winter's Approach",
+                "price": 2600,
+                "stats": {
+                    "health": 350,
+                    "attack damage": 0,
+                    "ability power": 0,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 15,
+                    "mana": 500,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "Grants bonus Health equal to 8% of max Mana and refunds 15% of all Mana spent.",
+                    "Increases max Mana by 12 every attack, when Mana is spent or when taking damage from champions, epic monsters, or towers. Caps at 700 bonus Mana, transforming Winter's Approach into Fimbulwinter. Triggers up to 3 times every 12 seconds. You may only carry one Tear of the Goddess item at a time"
+                ]
+            },
+            "fimbulwinter": {
+                "name": "Fimbulwinter",
+                "price": 2600,
+                "stats": {
+                    "health": 350,
+                    "attack damage": 0,
+                    "ability power": 0,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 15,
+                    "mana": 1200,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "Grants bonus Health equal to 10% of max Mana and refunds 15% of all Mana spent.",
+                    "Immobilizing or slowing an enemy champion consumes 3% current Mana and grants a shield for 3 seconds, absorbing 90-180 + 4.5% current Mana, increased by 80% if there is more than 1 enemy champion nearby. Only triggers when above 20% max Mana. (8s cooldown) Shield is 50% effective for ranged champions."
+                ]
+            },
+            "f-heart": {
+                "name": "Frozen Heart",
+                "price": 2700,
+                "stats": {
+                    "health": 0,
+                    "attack damage": 0,
+                    "ability power": 0,
+                    "armor": 80,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 25,
+                    "mana": 200,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "Basic attacks and magic damage caused by you or inflicted upon you will apply stacks of Chill to the enemy champion for 3 seconds. Each stack of Chill slows enemy attack speed by 9%, up to a maximum of 4 stacks or 36% attack speed reductionEach individual ability has a 3 second cooldown on applying Chill stacks."
+                ]
+            },
+            "fon": {
+                "name": "Force of Nature",
+                "price": 2750,
+                "stats": {
+                    "health": 350,
+                    "attack damage": 0,
+                    "ability power": 0,
+                    "armor": 0,
+                    "magic resist": 55,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 0,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "+5% Move Speed.",
+                    "Taking ability damage from enemy champions grants 1 stack of Steadfast for 7 seconds, max 4 stacks. Dealing damage to an enemy champion will refresh the duration of the stacks. At maximum stacks, gain 10% Movement Speed and reduce all incoming magic damage by 25%."
+                ]
+            },
+            "shroud": {
+                "name": "Dawnshroud",
+                "price": 2700,
+                "stats": {
+                    "health": 250,
+                    "attack damage": 0,
+                    "ability power": 0,
+                    "armor": 50,
+                    "magic resist": 30,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 0,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "If you are within 400 units of an enemy champion, and you immobilize a champion or are immobilized, reveal all nearby enemy champions for 3 seconds and deal 80 + 5% bonus Health as magic damage. (3s cooldown)"
+                ]
+            },
+            "twinguard": {
+                "name": "Amaranth's Twinguard",
+                "price": 3100,
+                "stats": {
+                    "health": 0,
+                    "attack damage": 0,
+                    "ability power": 0,
+                    "armor": 60,
+                    "magic resist": 60,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 0,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "Gain 1 stack of Endurance every 1 second while in combat with enemy champions (max 5 stacks). At maximum stacks, gain 20% size, 20% Tenacity, and increase armor by 30% and magic restist by 30% until out of combat with champions."
+                ]
+            },
+            "mantle": {
+                "name": "Mantle of the Twelfth Hour",
+                "price": 2900,
+                "stats": {
+                    "health": 200,
+                    "attack damage": 0,
+                    "ability power": 0,
+                    "armor": 40,
+                    "magic resist": 40,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 0,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "Damage that puts you under 35% Health grants grants bonus max Health equal to 180 + 45% bonus Health for 3s, and provides 50% Slow Resist and 30 Movement Speed for 3s. (90s Cooldown)"
+                ]
+            },
+            "crown": {
+                "name": "Searing Crown",
+                "price": 2700,
+                "stats": {
+                    "health": 300,
+                    "attack damage": 0,
+                    "ability power": 0,
+                    "armor": 50,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 0,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "After dealing damage with an attack or ability, burn target for 3 seconds, dealiong 1.4% of the target's maximum Hleath as magic damage per second (damage reduced to 0.7% for ranged users). Deals 150% damage to mimions and monsters. Maximum 125 damage to monsters."
+                ]
+            },
+            "heartsteal": {
+                "name": "Heartsteel",
+                "price": 2800,
+                "stats": {
+                    "health": 700,
+                    "attack damage": 0,
+                    "ability power": 0,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 20,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 150,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "While within 700 units of an enemy champion, charges for 2.5 seconds before dealing a huge strike against the enemy champion. This charged attack deals bonus physical damage equal to 140 + 3.5% of maximum Health, and grants maximum Health equal to 15% of the damage dealt. The charge for each target has a 20 second cooldown."
+                ]
+            },
+            "hydra": {
+                "name": "Titanic Hydra",
+                "price": 3000,
+                "stats": {
+                    "health": 450,
+                    "attack damage": 0,
+                    "ability power": 0,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 0,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "Gain Attack Damage equal to 15 + 2.5% bonus Health.",
+                    "Every 1.75 seconds, your next attack deals bonus physical damage equal to 25 + 3% bonus Health (also applies to turrets), creating a shockwave that deals physical damage equal to 80 + 10% bonus Health to enemies behind the target. Ranged champions deal 75% of the damage."
+                ]
+            },
+            "zekes": {
+                "name": "Zeke's Convergence",
+                "price": 2700,
+                "stats": {
+                    "health": 350,
+                    "attack damage": 0,
+                    "ability power": 0,
+                    "armor": 40,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 15,
+                    "mana": 150,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "Casting your Ultimate surrounds you with a blizzard for 10s. The blizzard deals a maximum of 480-900 magic damage (scaling with level), slows nearby enemies by 25%, and leaves a trail behind you. Allied champions on the trail gain 55 bonus Movement Speed for 1s. (30s cooldown)"
+                ]
+            },
+            "rookern": {
+                "name": "Kaenic Rookern",
+                "price": 2800,
+                "stats": {
+                    "health": 350,
+                    "attack damage": 0,
+                    "ability power": 0,
+                    "armor": 0,
+                    "magic resist": 75,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 0,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 100,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "After not taking magic damage for 12 seconds, gain a magic shield that absorbs damage equal to 70-180 + 10% of max Health."
+                ]
+            },
+            "trap": {
+                "name": "Yordle Trap",
+                "price": 2500,
+                "stats": {
+                    "health": 350,
+                    "attack damage": 0,
+                    "ability power": 0,
+                    "armor": 40,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 15,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "After using abilities to apply crowd control effects that displace the enemy, gain 30% Movement Speed for 3 seconds and mark the target, reducing their Armor and Magic Resist by 5-12 for 5 seconds. If the target dies while they are marked, their death grants 200-300 bonus gold (scaling with level) that will be evenly shared among you and nearby allies. This bonus gold can only be obtained once every 10 seconds."
+                ]
+            },
+            "staff": {
+                "name": "Staff of Flowing Waters",
+                "price": 2500,
+                "stats": {
+                    "health": 100,
+                    "attack damage": 0,
+                    "ability power": 45,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 20,
+                    "mana": 350,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 10
+                },
+                "passives": [
+                    "Healing or shielding an ally grants you both 15 Ability Haste and 20-40 Ability Power (based on target's level) for 6 seconds."
+                ]
+            },
+            "ardent": {
+                "name": "Ardent Censer",
+                "price": 2800,
+                "stats": {
+                    "health": 250,
+                    "attack damage": 0,
+                    "ability power": 35,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 20,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 10
+                },
+                "passives": [
+                    "+5% Move Speed.",
+                    "When you heal or shield an allied champion other than yourself, they gain 15-40% Attack Speed, and their attacks deal 20-40 bonus magic damage for 6 seconds."
+                ]
+            },
+            "echo": {
+                "name": "Harmonic Echo",
+                "price": 2700,
+                "stats": {
+                    "health": 100,
+                    "attack damage": 0,
+                    "ability power": 55,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 10,
+                    "mana": 300,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 10
+                },
+                "passives": [
+                    "Moving and casting abilites builds Harmony. At 100 Harmony your next healing or shielding ability cast on an ally restores Health equal to 150 + 15% Ability Power to your target. If the target's Health is below 40%, healing potency is increased to 150% of the orignal."
+                ]
+            },
+            "mandate": {
+                "name": "Imperial Mandate",
+                "price": 2500,
+                "stats": {
+                    "health": 200,
+                    "attack damage": 0,
+                    "ability power": 40,
+                    "armor": 0,
+                    "magic resist": 0,
+                    "magic penetration": 0,
+                    "armor penetration": 0,
+                    "physical vamp": 0,
+                    "attack speed": 0,
+                    "crit chance": 0,
+                    "ability haste": 20,
+                    "mana": 0,
+                    "mana regen": 0,
+                    "health regen": 0,
+                    "heal and shield strength": 0,
+                    "movement speed": 0
+                },
+                "passives": [
+                    "Abilites that slow or immobilize a champion deal 47-75 bonus magic damage and mark the target for 4s (6s cooldown per enemy champion). Allied champion damage detonates the mark, dealing an additional 94-150 magic damage (based on ally's level) and granting you both 20% Movement Speed for 2 seconds."
+                ]
+            }
+    },
+    "boots": {
+        "basic": {
+            "name": "Boots of Speed",
+            "price": 400,
+            "stats": {
+                "health": 0,
+                "attack damage": 0,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetratio": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 25
+            },
+            "passives": [
+
+            ]
+        },
+        "glut": {
+            "name": "Gluttonous Greaves",
+            "price": 1400,
+            "stats": {
+                "health": 0,
+                "attack damage": 35,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetratio": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 45
+            },
+            "passives": [
+                "+7% Omnivamp."
+            ]
+        },
+        "berserk": {
+            "name": "Berserker's Greaves",
+            "price": 1400,
+            "stats": {
+                "health": 0,
+                "attack damage": 20,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetratio": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 35,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 45
+            },
+            "passives": [
+                
+            ]
+        },
+        "mercs": {
+            "name": "Mercury's Threads",
+            "price": 1400,
+            "stats": {
+                "health": 200,
+                "attack damage": 0,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 35,
+                "magic penetratio": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 100,
+                "heal and shield strength": 0,
+                "movement speed": 45
+            },
+            "passives": [
+                "Reduces magic damage taken by 7%-12% (scaling with level)."
+            ]
+        },
+        "tabis": {
+            "name": "Plated Steelcaps",
+            "price": 1400,
+            "stats": {
+                "health": 150,
+                "attack damage": 0,
+                "ability power": 0,
+                "armor": 35,
+                "magic resist": 0,
+                "magic penetratio": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 100,
+                "heal and shield strength": 0,
+                "movement speed": 45
+            },
+            "passives": [
+                "Reduces physical damage taken by 7%-10% (scaling with level)."
+            ]
+        },
+        "lucidity": {
+            "name": "Ionian Boots of Lucidity",
+            "price": 1400,
+            "stats": {
+                "health": 150,
+                "attack damage": 0,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetratio": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 30,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 45
+            },
+            "passives": [
+                "Reduces spell cooldowns by 15%."
+            ]
+        },
+        "mana": {
+            "name": "Boots of Mana",
+            "price": 1400,
+            "stats": {
+                "health": 0,
+                "attack damage": 0,
+                "ability power": 55,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetratio": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 150,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 45
+            },
+            "passives": [
+                "+8 Magic Pen."
+            ]
+        },
+        "lethality": {
+            "name": "Boots of Dynamism",
+            "price": 1400,
+            "stats": {
+                "health": 0,
+                "attack damage": 30,
+                "ability power": 0,
+                "armor": 0,
+                "magic resist": 0,
+                "magic penetratio": 0,
+                "armor penetration": 0,
+                "physical vamp": 0,
+                "attack speed": 0,
+                "crit chance": 0,
+                "ability haste": 0,
+                "mana": 0,
+                "mana regen": 0,
+                "health regen": 0,
+                "heal and shield strength": 0,
+                "movement speed": 45
+            },
+            "passives": [
+                "+10 Armor Pen."
+            ]
+        }
+    },
+    "enchants": {
+        "Stasis": ["Active: Become invulnerable and untargetable for 2.5 seconds, but unable to move, attack, cast abilities or use items. (120s Cooldown)"],
+        "Locket": ["Active: Grants a shield to yourself and all nearby allied champions that absorbs 60-390 damage for 2.5 seconds. (60s cooldown). This effeect is reduced by 50% if the target has already been affected by another Locket in the last 20 seconds."],
+        "Glory": ["Active: Gain 15% Move Speed for 4 seconds, increasing to 75% towards enemy champions or turrets. After 4 seconds or reaching an enemy champion emits a shockwave that slows enemies by 50% for 2 seconds. (45s Cooldown)"],
+        "Protobelt": ["Active: Dashes forward and unleashes a cone of missiles that deal 70 magic damage. (60s cooldown) If champions or monsters are hit by more than one missile, the addional missiles only deal 10% damage."],
+        "Quicksilver": [
+            "Active: Removes all crowd control effects currently affecting you and grants immunity to crowd control effects for 0.75s.",
+            "Passive: Reduces the duration of all crowd control effects affecting you (expect for knokc up) by 25%. After the Quicksilver effect ends, grants 30% Tenacity and 30% Slow Resist for 1.5s. (60s cooldown) Cannot be used during knock up or knock back effects."
+        ],
+        "Stoneplate": "Active: Gain a shield that absorbs damage equal to 28% of max Health. The shield decays over 4s. (60s cooldown) For every enemy nearby, gain an addional shield that absorbs damage equal to 14% of max Health, capped at 3 shields. Damage dealt is reduced by 40% for 4s.",
+        "Teleport": "Active: After channeling for 3.5 seconds, teleport your champion to an allied champion, structure, or ward. (180s Cooldown)",
+        "Repulsor": "Knock back nearby enemies. After knocking back a champion, gain 30% Movement Speed for 3 seconds. (60s cooldown)",
+        "Magnetron": "Active: Selects a minion, monster, or allied champion and rapidly dashes behind them. (50s cooldown)",
+        "Veil": "Active: Grant a spell shield to a nearby ally for 3 seconds, blocking the next hostile ability. (45s Cooldown)",
+        "Meteor": "Active: Lights up an area and summons a meteor after 2.5s, dealing 25% of each enemy's max Health as magic damage. (90s cooldown) Deals up to 500 damage against minions and monsters.",
+        "Hydra": "Active: Deal adaptive damage equal to 140% Attack Damage plus 30% Ability Power to nearby enemies and resture health by 60% of the damage dealt. (10s cooldown) Deals 50% damage to monsters. Deals 50% damage to minions.",
+        "Dream Maker": "Gain a Blue Dream Bubble and a Purple Dream Bubble every 8 seconds. Healing or shielding an ally blows both Dream Bubbles to them, empowering them for 3 seconds. Blue Bubble reduces the next incoming damage by 70-140 (scaling with level) while Purple Bubble grants 20-90 (scaling with level) bonus magic damage on the next hit.."
+    }
+}
+
+
