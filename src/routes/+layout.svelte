@@ -1,13 +1,11 @@
 <script>
 	import { onMount, tick } from 'svelte';
-	import '../css/general_styles.css';
 	import NavBar from '../components/layout/nav_bar.svelte';
 	import StatsCounter from '../components/layout/stats_counter.svelte';
-	import { stats } from '/src/stores/stats.js';
-	import { passives } from '/src/stores/passives.js';
-	import { gold } from '/src/stores/gold.js';
+	import { stats } from '../stores/stats';
+	import { gold } from '../stores/gold';
+	import { passives } from '../stores/passives';
 
-	console.log(stats)
 
 	let { children } = $props();
 

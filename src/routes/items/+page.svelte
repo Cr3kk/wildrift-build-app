@@ -1,64 +1,53 @@
 <script>
 	import { onMount } from 'svelte';
-    import { writable } from 'svelte/store';
-	import { stats } from '/src/stores/stats.js';
+	import { writable, get } from 'svelte/store';
+	import { stats } from '../../stores/stats';
+	import { gold } from '../../stores/gold';
 	import { passives } from '../../stores/passives';
-	import { gold } from '/src/stores/gold.js';
-  
-	let items = $state({});
-  
+
+	let items = writable({});
+	let selectedTab = writable('upgraded-items');
+	let checkedItems = writable({}); 
+
 	onMount(async () => {
-	  try {
-		const response = await fetch('data/items_lists.json'); // Ensure it's in "public/"
-		items = await response.json();
-	  } catch (error) {
-		console.error('Error loading JSON:', error);
-	  }
+		try {
+			const response = await fetch('/data/items_lists.json');
+			const data = await response.json();
+			items.set(data);
+		} catch (error) {
+			console.error('Error loading JSON:', error); 
+		}
 	});
+
+	// Reactive statement to reset checkedItems whenever selectedTab changes
+	$: {
+		const currentTab = get(selectedTab);
+		// Clear checked items when the selected tab changes
+		checkedItems.set({});
+	}
 
 	function toggleItem(event, item) {
 		stats.update(currentStats => {
-			if (event.target.checked) {
-				return {
-					...currentStats,
-                    HP: currentStats.HP + item.stats.health,
-                    AD: currentStats.AD + item.stats["attack damage"],
-                    AP: currentStats.AP + item.stats["ability power"],
-                    AR: currentStats.AR + item.stats.armor,
-                    MR: currentStats.MR + item.stats["magic resist"],
-                    MPR: currentStats.MPR + item.stats["magic penetration"],
-                    APR: currentStats.APR + item.stats["armor penetration"],
-                    PV: currentStats.PV + item.stats["physical vamp"],
-                    AS: currentStats.AS + item.stats["attack speed"],
-                    CR: currentStats.CR + item.stats["crit chance"],
-                    AH: currentStats.AH + item.stats["ability haste"],
-                    MA: currentStats.MA + item.stats.mana,
-                    MRE: currentStats.MRE + item.stats["mana regen"],
-                    HR: currentStats.HR + item.stats["health regen"],
-                    HSS: currentStats.HSS + item.stats["heal and shield strength"],
-                    MS: currentStats.MS + item.stats["movement speed"]
-                };
-			} else {
-				return {
-                    ...currentStats,
-                    HP: currentStats.HP - item.stats.health,
-                    AD: currentStats.AD - item.stats["attack damage"],
-                    AP: currentStats.AP - item.stats["ability power"],
-                    AR: currentStats.AR - item.stats.armor,
-                    MR: currentStats.MR - item.stats["magic resist"],
-                    MPR: currentStats.MPR - item.stats["magic penetration"],
-                    APR: currentStats.APR - item.stats["armor penetration"],
-                    PV: currentStats.PV - item.stats["physical vamp"],
-                    AS: currentStats.AS - item.stats["attack speed"],
-                    CR: currentStats.CR - item.stats["crit chance"],
-                    AH: currentStats.AH - item.stats["ability haste"],
-                    MA: currentStats.MA - item.stats.mana,
-                    MRE: currentStats.MRE - item.stats["mana regen"],
-                    HR: currentStats.HR - item.stats["health regen"],
-                    HSS: currentStats.HSS - item.stats["heal and shield strength"],
-                    MS: currentStats.MS - item.stats["movement speed"]
-                };
-			} 
+			const modifier = event.target.checked ? 1 : -1;
+			return {
+				...currentStats,
+				HP: currentStats.HP + modifier * (item.stats.health || 0),
+				AD: currentStats.AD + modifier * (item.stats["attack damage"] || 0),
+				AP: currentStats.AP + modifier * (item.stats["ability power"] || 0),
+				AR: currentStats.AR + modifier * (item.stats.armor || 0),
+				MR: currentStats.MR + modifier * (item.stats["magic resist"] || 0),
+				MPR: currentStats.MPR + modifier * (item.stats["magic penetration"] || 0),
+				APR: currentStats.APR + modifier * (item.stats["armor penetration"] || 0),
+				PV: currentStats.PV + modifier * (item.stats["physical vamp"] || 0),
+				AS: currentStats.AS + modifier * (item.stats["attack speed"] || 0),
+				CR: currentStats.CR + modifier * (item.stats["crit chance"] || 0),
+				AH: currentStats.AH + modifier * (item.stats["ability haste"] || 0),
+				MA: currentStats.MA + modifier * (item.stats.mana || 0),
+				MRE: currentStats.MRE + modifier * (item.stats["mana regen"] || 0),
+				HR: currentStats.HR + modifier * (item.stats["health regen"] || 0),
+				HSS: currentStats.HSS + modifier * (item.stats["heal and shield strength"] || 0),
+				MS: currentStats.MS + modifier * (item.stats["movement speed"] || 0)
+			};
 		});
 
 		passives.update(currentPassives => {
@@ -70,49 +59,58 @@
 		});
 
 		gold.update(currentGold => {
-			if (event.target.checked) {
-				return currentGold + item.price;
-			} else {
-				return currentGold - item.price;
-			}
+			return event.target.checked ? currentGold + item.price : currentGold - item.price;
+		});
+
+		// Update checkedItems store
+		checkedItems.update(current => {
+			return { ...current, [item.name]: event.target.checked }; // Use a unique identifier
 		});
 	}
 </script>
-  
+
 <main>
 	<h1>Items</h1>
+
+	<div class="tabs">
+		{#each ['upgraded-items', 'mid-tier-items', 'basic-items', 'support-items', 'boots'] as tab}
+			<button class={($selectedTab === tab ? 'active' : '')} onclick={() => selectedTab.set(tab)}>
+				{tab.replace('-', ' ')}
+			</button>
+		{/each}
+	</div>
+
 	<div class="items-container">
-		<div class="support-items">
-			{#if items["upgraded-items"]}
-				{#each Object.entries(items["upgraded-items"]) as [key, support_item]}
-					{@render item(key, support_item)} 
-				{/each}
-			{/if}
-		</div>
+		{#if $items && $items[$selectedTab]}
+			{#each Object.entries($items[$selectedTab]) as [key, item]}
+				<div class="item">
+					<div class="item-card">
+						<h2>{item.name}</h2>
+						<p>Price: {item.price} gold</p>
+					</div>
+					<div class="item-select">
+						<input 
+							type="checkbox" 
+							name={key} 
+							id={key} 
+							checked={$checkedItems[item.name] || false} 
+							onchange={event => toggleItem(event, item)}
+						>
+					</div>
+				</div>
+			{/each}
+		{:else}
+			<p>Loading items...</p>
+		{/if}
 	</div>
 </main>
 
-  
-{#snippet item(key, item)}
-  	<div class="item">
-		<div class="item-card">
-			<h2>{item.name}</h2>
-			<p>Price: {item.price} gold</p>
-		</div>
-
-		<div class="item-select">
-			<input type="checkbox" name={key} id={key} value="no" onchange={event => toggleItem(event, item)}>
-		</div>
-	</div>
-{/snippet}
-  
 <style>
 	main {
 		display: flex;
 		flex-direction: column;
-		align-items: center;
-		text-align: center;
 		margin-left: 250px;
+		width: 100%;
 	}
 
 	h1 {
@@ -120,39 +118,47 @@
 		margin: auto;
 	}
 
+	.tabs {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+		margin-top: 20px;
+	}
+
+	.tabs button {
+		padding: 10px 20px;
+		border: none;
+		background: #ddd;
+		cursor: pointer;
+		border-radius: 5px;
+	}
+
+	.tabs .active {
+		background: #555;
+		color: white;
+	}
+
 	.items-container {
 		display: grid;
-		grid-template-columns: repeat(auto-fill, minmax(1500px, 1fr));
-		grid-auto-rows: minmax(200px, auto); 
-		max-height: 100vh;
-		overflow-y: auto;
+		grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
 		gap: 20px;
-		margin-top: 100px;
-	}
-
-
-	.support-items {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		flex-wrap: wrap;
-		height: 90vh;
+		padding: 40px;
+		max-height: 80vh;
 		overflow-y: auto;
-		width: 100%;
+		width: 130vh;
+		justify-content: center;
 	}
-
 
 	.item {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		margin: 5px;
 	}
 
 	.item-card {
 		border: 1px solid #ccc;
-		width: 100%; 
 		padding: 15px;
-		margin: 10px 0;
 		border-radius: 8px;
 		background: #f9f9f9;
 		text-align: center;
@@ -164,13 +170,11 @@
 	}
 
 	.item-card p {
-			margin: 0;
-			font-size: 0.9em;
+		margin: 0;
+		font-size: 0.9em;
 	}
 
 	.item-select {
 		margin-top: 5px;
 	}
-
 </style>
-  
